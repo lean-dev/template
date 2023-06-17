@@ -19,3 +19,8 @@
   keine Tests mehr automatisch mit erzeugt für neue Angular-Artefakte. Die
   Entscheidung über konkrete Werkzeuge (Task Runner, Framework, Libraries) wird
   nach hinten geschoben - aber natürlich nicht aufgehoben.
+
+- Styles: um den Dateibaum etwas zu verkleinern, werden zunächst keine
+  externen Style-Dateien für Komponenten erzeugt. Das leere inline Styles-Array
+  wird auch zunächst manuell entfernt. Oft reicht es die Styles gescoped im
+  Template zu definieren oder über Utility-Frameworks in den CSS-Klassen.
