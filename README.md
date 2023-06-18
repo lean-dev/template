@@ -24,3 +24,6 @@
   externen Style-Dateien für Komponenten erzeugt. Das leere inline Styles-Array
   wird auch zunächst manuell entfernt. Oft reicht es die Styles gescoped im
   Template zu definieren oder über Utility-Frameworks in den CSS-Klassen.
+
+- Komponten-Selektor: der Default-Prefix wird aus der Konfiguration entfernt
+  und auch die ESLint-Regel entsprechend angepasst.
