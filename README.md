@@ -31,3 +31,25 @@
 - Direktiven-Selektor: auch hier wird in der ESLint-Regel das app-Prefix nicht
   mehr verlangt und außerdem auch bei den Direktiven auf Kebab-Case umgestellt
   (HTML selbst ist Case-Insensitive und wir bleiben mehr bei der Plattform).
+
+## VSCode
+
+### Empfohlene Erweiterungen
+
+- [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+- [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+Und optional
+
+- [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
+
+### Empfohlene Settings
+
+- Text Editor -> Default Formatter: Prettier
+- Text Editor -> Formatting -> Format On Save: True
+
+### Profil
+
+Ein entsprechendes Profil kann importiert werden von [Gist Link](https://gist.github.com/lean-dev/3bfde84e8fbd8477a50000cd09188109).
