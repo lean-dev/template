@@ -27,3 +27,7 @@
 
 - Komponten-Selektor: der Default-Prefix wird aus der Konfiguration entfernt
   und auch die ESLint-Regel entsprechend angepasst.
+
+- Direktiven-Selektor: auch hier wird in der ESLint-Regel das app-Prefix nicht
+  mehr verlangt und außerdem auch bei den Direktiven auf Kebab-Case umgestellt
+  (HTML selbst ist Case-Insensitive und wir bleiben mehr bei der Plattform).
