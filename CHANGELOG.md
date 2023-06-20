@@ -1,6 +1,20 @@
 # Changelog
 
 
+## v1.0.1
+
+[compare changes](https://github.com/lean-ng/template/compare/v1.0.0...v1.0.1)
+
+
+### 🩹 Fixes
+
+  - Add missing typescript plugin. ([fd37f3c](https://github.com/lean-ng/template/commit/fd37f3c))
+  - Remove verbatimModuleSyntax as it breaks importing services and angular as well. ([fc12ff1](https://github.com/lean-ng/template/commit/fc12ff1))
+
+### ❤️  Contributors
+
+- Micha Buchholz ([@lean-dev](http://github.com/lean-dev))
+
 ## v1.0.0
 
 
