@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.0.2
+
+[compare changes](https://github.com/lean-ng/template/compare/v1.0.1...v1.0.2)
+
+
+### 🩹 Fixes
+
+  - Remove lock file. That's a template project! ([0a87e5b](https://github.com/lean-ng/template/commit/0a87e5b))
+
+### ❤️  Contributors
+
+- Micha Buchholz ([@lean-dev](http://github.com/lean-dev))
+
 ## v1.0.1
 
 [compare changes](https://github.com/lean-ng/template/compare/v1.0.0...v1.0.1)
