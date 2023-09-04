@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v1.0.3
+
+[compare changes](https://github.com/lean-ng/template/compare/v1.0.2...v1.0.3)
+
+### 🩹 Fixes
+
+- Loose cli version strategy. ([37170ec](https://github.com/lean-ng/template/commit/37170ec))
+- Loose version strategy of angular-eslint packages. ([e074bb9](https://github.com/lean-ng/template/commit/e074bb9))
+
+### 💅 Refactors
+
+- Improve typescript settings. ([c7b7272](https://github.com/lean-ng/template/commit/c7b7272))
+
+### 🏡 Chore
+
+- **dx:** Upgrade prettier. ([d104ab6](https://github.com/lean-ng/template/commit/d104ab6))
+- Upgrade typescript linting. ([70561c5](https://github.com/lean-ng/template/commit/70561c5))
+
+### ❤️ Contributors
+
+- Micha Buchholz <mail@lean-stack.de>
+
 ## v1.0.2
 
 [compare changes](https://github.com/lean-ng/template/compare/v1.0.1...v1.0.2)
