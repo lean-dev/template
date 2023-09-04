@@ -10,19 +10,21 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
+    "verbatimModuleSyntax": true,
 
     // Target
     "target": "ES2022",
-    "module": "ES2022",
+    "module": "ESNext",
 
     // Bundler / Compiler
     "outDir": "./dist/out-tsc",
     "declaration": false,
     "downlevelIteration": true,
     "importHelpers": true, // needs tslib
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "sourceMap": true,
     "useDefineForClassFields": false,
+    "skipLibCheck": true,
 
     // DX
     "paths": {
