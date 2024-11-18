@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v18.0.0
+
+[compare changes](https://github.com/lean-ng/template/compare/v17.0.1...v18.0.0)
+
+### 🚀 Enhancements
+
+- Add eslint v9 with the now clean: ng add @angular-eslint/schematics ([c158f87](https://github.com/lean-ng/template/commit/c158f87))
+- Simplify prettier config and drop sort plugin. ([719a4e2](https://github.com/lean-ng/template/commit/719a4e2))
+
+### 🩹 Fixes
+
+- Remove all eslint deps. Prepare upgrade for eslint v9 ([f6066aa](https://github.com/lean-ng/template/commit/f6066aa))
+
+### 🏡 Chore
+
+- Again remove the @angular-eslint/schematics. Still a bug to have that in the deps. ([b12aaa1](https://github.com/lean-ng/template/commit/b12aaa1))
+- Upgrade angular via "ng update @angular/core@18 @angular/cli@18" ([58c92fb](https://github.com/lean-ng/template/commit/58c92fb))
+
+### ❤️ Contributors
+
+- Micha Buchholz <mail@lean-stack.rocks>
+
 ## v17.0.1
 
 [compare changes](https://github.com/lean-ng/template/compare/v17.0.0...v17.0.1)
