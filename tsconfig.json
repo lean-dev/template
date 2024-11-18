@@ -5,6 +5,7 @@
     // Source code
     "lib": ["ES2023", "dom"],
     "strict": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "experimentalDecorators": true,
     "noFallthroughCasesInSwitch": true,
@@ -19,7 +20,6 @@
     // Bundler / Compiler
     "outDir": "./dist/out-tsc",
     "declaration": false,
-    "downlevelIteration": true,
     "importHelpers": true, // needs tslib
     "moduleResolution": "Bundler",
     "sourceMap": true,
