@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v17.0.0
+
+[compare changes](https://github.com/lean-ng/template/compare/v1.0.3...v17.0.0)
+
+### 🩹 Fixes
+
+- Remove the @angular/schematics dependency. Not needed and not usefull ([30e33c8](https://github.com/lean-ng/template/commit/30e33c8))
+
+### 🏡 Chore
+
+- Force update of zone.js and typescript. ([098e646](https://github.com/lean-ng/template/commit/098e646))
+- Upgrade angular via "ng update @angular/core@17 @angular/cli@17" ([eda5489](https://github.com/lean-ng/template/commit/eda5489))
+- Update linting. Again with the schematics: ng add @angular-eslint/schematics ([40b8ca7](https://github.com/lean-ng/template/commit/40b8ca7))
+
+### ❤️ Contributors
+
+- Micha Buchholz <mail@lean-stack.rocks>
+
 ## v1.0.3
 
 [compare changes](https://github.com/lean-ng/template/compare/v1.0.2...v1.0.3)
